@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "itmo_denoise"
+version = "0.1.0"
+description = ""
+authors = ["da-kartushov <kartyshov.d@team.karpov.courses>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+torch = "^1.13.1"
+librosa = "^0.10.0"
+tqdm = "^4.64.1"
+matplotlib = "^3.7.0"
+torchvision = "^0.14.1"
+fastapi = "^0.92.0"
+unicorn = {extras = ["standard"], version = "^2.0.1"}
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+python-multipart = "^0.0.6"
+pydub = "^0.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

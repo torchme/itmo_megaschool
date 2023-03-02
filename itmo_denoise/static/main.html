@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FastAPI Audio Processing</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div class="header">ITMO Denoise</div>
+    <div class="form-container">
+      <form action="/process_file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".wav" required>
+        <button type="submit">Process</button>
+      </form>
+    </div>
+  </body>
+</html>

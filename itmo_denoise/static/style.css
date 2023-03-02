@@ -1,0 +1,46 @@
+ /* Define styles for the header */
+ .header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0066ff;
+    text-shadow: 2px 2px 0px rgb(22, 36, 116);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  /* Define styles for the input and button */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container input {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid #0066ff;
+    border-radius: 0px;
+    box-shadow: 5px 5px 0px rgb(22, 36, 116);
+    margin-bottom: 20px;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .form-container button {
+    display: block;
+    margin-top: 16px;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    color: #0066ff;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid #0066ff;
+    box-shadow: 5px 5px 0px rgb(22, 36, 116);
+  }
